@@ -1,0 +1,146 @@
+*{
+margin:0;padding:0;
+}
+#contatos{
+background-color:#8B8989;
+padding-left:5cm;
+padding-top:0.5cm;
+padding-bottom:0.5cm;
+font-size:12pt;
+font-family: 'Abel', sans-serif;
+}
+#logo{
+float:left;
+padding-left:4cm;
+}
+#menu{
+background-color:#fff;
+font-size:16pt;
+font-family: 'Abel', sans-serif;
+padding-left:4cm;
+padding-top:2cm;
+}
+#menu ul li{
+display:inline;
+list-style:none;
+margin:2.0em 2.0em 2.0em 2.0em;
+}
+#menu li a:link{
+text-decoration:none;
+color:black;
+}
+#menu li a:hover{
+background-color:#008B45;
+padding-left:0.5cm;
+padding-top:0.5cm;
+padding-bottom:0.5cm;
+padding-right:0.5cm;
+}
+#menu li a:visited{
+color:black;
+}
+#menu li a:actived{
+color:black;
+}
+.foto img{
+padding-top:2cm;
+padding-left:4cm;
+padding-right:2cm;
+}
+.foto{
+float:left;
+}
+.titulo{
+font-family: 'Abel', sans-serif;
+font-size:24pt;
+font-weight:bold;
+padding-top:2cm;
+}
+.texto{
+font-family: 'Abel', sans-serif;
+text-align:justify;
+font-size:14pt;
+padding-top:2cm;
+padding-right:4cm;
+}
+#galeria img{
+clear:both;
+display:inline;
+}
+#galeria{
+padding-left:4cm;
+}
+footer{
+	width: 100%;
+	height: 360px;
+	background-color:#8B8989;
+
+}
+body{
+font-family: 'Abel', sans-serif;
+font-size:14pt;
+text-align: justify;
+}
+.titulo1{
+font-family: 'Abel', sans-serif;
+font-size:24pt;
+font-weight:bold;
+padding-top:2cm;
+text-align: center;
+}
+#promo1{
+	float: left;
+	margin-right: 2cm;
+}
+#promo2{
+	margin-left: 1cm;
+}
+#promo{
+	margin-left:4cm;
+}
+#cont{
+	margin:3%;
+	font-family: 'Abel', sans-serif;
+	font-size:12pt;
+	float: left;
+}
+#cont1{
+	margin:3%;
+	font-family: 'Abel', sans-serif;
+	font-size:12pt;
+	float: left;
+	float: left;
+}
+#email{
+	margin:3%;
+	float:left;
+}
+input{
+	border-radius:0.2cm;
+	width:200pt;
+	height: 30pt;
+}
+form{
+	font-family: 'Abel', sans-serif;
+	font-size:12pt;
+}
+
+button{
+	padding-left:0.3cm;
+	padding-right:0.3cm;
+	padding-bottom:0.3cm;
+	padding-top:0.3cm;
+	color:green;
+	margin-left:1cm;
+}
+
+@media print{
+	#contatos{
+		color:green;
+	}
+}
+@media screen and(max-width:320px){
+	#contatos{
+		color:green;
+	}
+}
